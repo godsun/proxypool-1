@@ -1,6 +1,6 @@
 package healthcheck
 
-import "github.com/Sansui233/proxypool/pkg/proxy"
+import "github.com/godsun/proxypool-1/pkg/proxy"
 
 // Statistic for a proxy
 type Stat struct {

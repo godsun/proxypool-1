@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/Sansui233/proxypool/log"
-	"github.com/Sansui233/proxypool/pkg/proxy"
+	"github.com/godsun/proxypool-1/log"
+	"github.com/godsun/proxypool-1/pkg/proxy"
 	"sync"
 	"time"
 
