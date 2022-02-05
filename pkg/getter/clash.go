@@ -1,9 +1,9 @@
 package getter
 
 import (
-	"github.com/Sansui233/proxypool/log"
-	"github.com/Sansui233/proxypool/pkg/proxy"
-	"github.com/Sansui233/proxypool/pkg/tool"
+	"github.com/godsun/proxypool-1/log"
+	"github.com/godsun/proxypool-1/pkg/proxy"
+	"github.com/godsun/proxypool-1/pkg/tool"
 	"gopkg.in/yaml.v3"
 	"io/ioutil"
 	"sync"
