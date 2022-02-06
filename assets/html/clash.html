@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="HandheldFriendly" content="True">
     <title>Free Proxies</title>
-    <meta property="og:description" content="免费的 Shadowsocks、ShadowsocksR、VMess 和 Trojan 节点">
-    <meta name="keywords" content="免费的 Shadowsocks、ShadowsocksR、VMess 和 Trojan 节点">
+    <meta property="og:description" content="免费的ss、ssr、vmess、trojan节点">
+    <meta name="keywords" content="免费的ss、ssr、vmess、torjan节点">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <!-- <link rel="stylesheet" type="text/css" href="css/client/metron-icon.css" /> -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/sansui233/proxypool-fe/css/client/metron-icon.css" />
@@ -64,7 +64,7 @@
             </div>
             <article class="message is-info">
                 <div class="message-body">
-                    以上提供的配置文件本身不包含节点，而使用 clash provider 的方式加载远程节点。
+                    以上提供的配置文件本身不包含节点，而使用clash provider的方式加载远程节点。
                 </div>
             </article>
         </section>
@@ -89,14 +89,14 @@
                 </div>
                 <article class="message is-danger">
                     <div class="message-body">
-                        节点过多会造成软件卡顿，可以自行筛选节点后修改配置文件的 proxy-provider 部分。
+                        ❗️节点过多会造成软件卡顿，可以自行筛选节点后修改配置文件的proxy-provider部分。
                     </div>
                 </article>
             </div>
         </section>
         <section class="section ">
-            <h5 class="title is-5" id="query">Provider 筛选参数</h5>
-            <p>使用 <a href="https://en.wikipedia.org/wiki/Query_string">URL Query</a> 对 Clash Provider 进行筛选</p>
+            <h5 class="title is-5" id="query">Provider筛选参数</h5>
+            <p>🌟 使用<a href="https://en.wikipedia.org/wiki/Query_string">URL Query</a>对Clash Provider进行筛选</p>
             <div class="table-container mt-2">
                 <table class="table is-fullwidth">
                     <thead>
@@ -111,19 +111,19 @@
                         <tr>
                             <th>类型</th>
                             <td>type</td>
-                            <td>ss, ssr, vmess, trojan</td>
+                            <td>ss,ssr,vmess,trojan</td>
                             <td>可同时选择多个类型</td>
                         </tr>
                         <tr>
                             <th>国家</th>
                             <td>c</td>
-                            <td>AT, CN, IN, HK, JP, NL, RU, SG, TW, US...</td>
+                            <td>AT,CN,IN,HK,JP,NL,RU,SG,TW,US...</td>
                             <td>可同时选择多个国家</td>
                         </tr>
                         <tr>
                             <th>排除国家</th>
                             <td>nc</td>
-                            <td>AT, CN, IN, HK, JP, NL, RU, SG, TW, US...</td>
+                            <td>AT,CN,IN,HK,JP,NL,RU,SG,TW,US...</td>
                             <td>可同时选择多个国家</td>
                         </tr>
                         <tr>
@@ -135,8 +135,8 @@
                         <tr>
                             <th>过滤</th>
                             <td>filter</td>
-                            <td>r, p, rp, nr, np, nrp</td>
-                            <td>默认不进行过滤<br>r：中转节点<br>p：pool 节点<br>rp：中转与 pool 节点<br>n*：表示not</td>
+                            <td>r,p,rp,nr,np,nrp</td>
+                            <td>默认不进行过滤<br>r: 中转节点<br>p: pool节点<br>rp: 中转与pool节点<br>n*: 表示not</td>
                         </tr>
                     </tbody>
                 </table>
@@ -145,8 +145,9 @@
     </div>
     <footer class="footer has-text-centered">
         <!-- 所有使用本代码提供服务的禁止删除、修改版权信息 -->
+        <p>欢迎关注tg频道：<a href="https://t.me/peekfun">@peekfun</a></p>
         <p>抓取程序已开源：<a href="https://github.com/zu1k/proxypool">zu1k/proxypool</a></p>
-        <p>本程序为 Fork 版：<a href="https://github.com/sansui233/proxypool">sansui233/proxypool</a><br>{{ .version }}</p>
+        <p>本程序为fork版：<a href="https://github.com/sansui233/proxypool">sansui233/proxypool</a><br>{{ .version }}</p>
         <br>
         <p><b>Theme</b>&nbspby&nbsp<a href="https://github.com/sansui233/" class="has-text-primary"><b>Sansui233</b></a> Powered&nbspby&nbsp<b>Bulma</b></p>
     </footer>
